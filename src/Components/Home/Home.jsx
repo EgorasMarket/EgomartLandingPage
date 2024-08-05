@@ -53,6 +53,9 @@ const Home = () => {
       brand: "Egoras",
     },
   ];
+  // console.log('====================================');
+  // // console.log(hhd);
+  // console.log('====================================');
   return (
     <div className="HomeDiv">
       <section className="homeDivSection1">
