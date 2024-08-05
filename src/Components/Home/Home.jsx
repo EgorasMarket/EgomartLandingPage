@@ -61,9 +61,9 @@ const Home = () => {
             <div className="homeDivSection1_area_1">
               <div className="homeDivSection1_area_1_title">
                 <span className="homeDivSection1_area_1_title_span">
-                  The best income source
+                  Decentralized
                 </span>{" "}
-                during high inflation.
+                Commodity Exchange.
               </div>
               <div className="homeDivSection1_area_1_para">
                 Electronics and commodities have seen significant price
