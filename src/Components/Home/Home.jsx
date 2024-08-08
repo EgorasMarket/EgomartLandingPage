@@ -24,13 +24,13 @@ const Home = () => {
       prodAmount: "$150.00",
       brand: "Egoras",
     },
-    {
-      id: "2",
-      img: "/img/product_images/new_img_gallery_img1.jpeg",
-      prodName: "EGR APEX",
-      prodAmount: "$50,000.00",
-      brand: "Egoras",
-    },
+    // {
+    //   id: "2",
+    //   img: "/img/product_images/new_img_gallery_img1.jpeg",
+    //   prodName: "EGR APEX",
+    //   prodAmount: "$50,000.00",
+    //   brand: "Egoras",
+    // },
     {
       id: "3",
       img: "/img/product_images/new_img_gallery_img3.jpeg",
@@ -159,12 +159,24 @@ const Home = () => {
             <div className="homeDivSection2_area_title">
               How it works
               <div className="homeDivSection3_area_para">
-                With egomart, we’re creating a platform to tokenize real-world
-                properties into NFTs.
+                At Egomart, we understand that everyone has a unique financial
+                goal. That's why we created an enabling environment to help you
+                find the best earning opportunities tailored to your skills,
+                interests, and circumstances.
               </div>
             </div>
             <div className="homeDivSection2_area_body">
               <div className="homeDivSection2_area_body_area1">
+                <div className="homeDivSection2_area_body_cont1">
+                  <JoinFullIcon className="homeDivSection2_area_body_cont1_icon" />
+                  <div className="homeDivSection2_area_body_cont1_title">
+                    Instant Bonding Of $EGAX
+                  </div>
+                  <div className="homeDivSection2_area_body_cont1_para">
+                    Effortlessly generate egoUSD by securely burning $EGAX. All
+                    transactions on Egomart exclusively utilize eGOD.
+                  </div>
+                </div>
                 <div className="homeDivSection2_area_body_cont1">
                   <WalletIcon className="homeDivSection2_area_body_cont1_icon" />
                   <div className="homeDivSection2_area_body_cont1_title">
@@ -174,16 +186,6 @@ const Home = () => {
                     Trade rNFTs effortlessly and profit from their price
                     volatility. Access a diverse range of rNFTs with substantial
                     liquidity on egomart.
-                  </div>
-                </div>
-                <div className="homeDivSection2_area_body_cont1">
-                  <JoinFullIcon className="homeDivSection2_area_body_cont1_icon" />
-                  <div className="homeDivSection2_area_body_cont1_title">
-                    Instant Bonding Of $EGAX
-                  </div>
-                  <div className="homeDivSection2_area_body_cont1_para">
-                    Effortlessly generate egoUSD by securely burning $EGAX. All
-                    transactions on Egomart exclusively utilize eGOD.
                   </div>
                 </div>
               </div>
@@ -206,11 +208,11 @@ const Home = () => {
                 <div className="homeDivSection2_area_body_cont1">
                   <WalletIcon className="homeDivSection2_area_body_cont1_icon" />
                   <div className="homeDivSection2_area_body_cont1_title">
-                    Purchase & Earn
+                    Redeem and Use
                   </div>
                   <div className="homeDivSection2_area_body_cont1_para">
-                    purchase on Egomart enables users to earn $EGAX as they
-                    utilize our products.
+                    Redeem your Egoras rNFTs to physical products and enjoy the
+                    exclusive benefits of ownership.
                   </div>
                 </div>
               </div>
@@ -230,7 +232,8 @@ const Home = () => {
             <div className="homeDivSection3_area_title">
               Trending Products
               <div className="homeDivSection3_area_para">
-                Top products with the highest 24-hour trading volume
+                Find out what other users are mostly interested in or
+                purchasing.
               </div>
             </div>
             <div className="homeDivSection3_area_body">
@@ -302,7 +305,7 @@ const Home = () => {
         <div className="container">
           <div className="homeDivSection2_area">
             <div className="homeDivSection2_area_title">
-              How to Earn{" "}
+              Discover How To Earn With Egomart
               <div className="homeDivSection3_area_para">
                 With egomart, we’re creating a platform to tokenize real-world
                 properties into NFTs, allowing.
@@ -323,14 +326,14 @@ const Home = () => {
               </div>
               <div className="homeDivSection2_area_area_cont1">
                 <div className="homeDivSection2_area_area_cont1_title">
-                  $EGAX Rewards
+                  Use To Earn
                 </div>
                 <div className="homeDivSection2_area_area_cont1_icon_div">
                   <TollIcon className="homeDivSection2_area_area_cont1_icon" />
                 </div>
                 <div className="homeDivSection2_area_area_cont1_para">
-                  Users receive $EGAX rewards for every product purchased on
-                  Egomart.
+                  Our products are powered by a distributed ledger which enables
+                  you to earn $EGAX while using these products.
                 </div>
               </div>
               <div className="homeDivSection2_area_area_cont1">
@@ -347,7 +350,7 @@ const Home = () => {
               </div>
               <div className="homeDivSection2_area_area_cont1">
                 <div className="homeDivSection2_area_area_cont1_title">
-                  Referral Bonuses
+                  Refer To Earn
                 </div>
                 <div className="homeDivSection2_area_area_cont1_icon_div">
                   <PeopleIcon className="homeDivSection2_area_area_cont1_icon" />
