@@ -14,6 +14,7 @@ import JoinFullIcon from "@mui/icons-material/JoinFull";
 import CandlestickChartIcon from "@mui/icons-material/CandlestickChart";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PeopleIcon from "@mui/icons-material/People";
+import LanguageIcon from "@mui/icons-material/Language";
 
 const Home = () => {
   const productList = [
@@ -73,16 +74,38 @@ const Home = () => {
                 increases in developing countries. Capitalize on this trend by
                 trading these commodities on Egomart.
               </div>
-              <a
-                href="https://t.me/egomartbot"
-                target="_blank"
-                className="homeDivSection1_area_1_btns"
-              >
-                <button className="homeDivSection1_area_1_btns_2">
-                  Launch Egomart{" "}
-                  <TelegramIcon className="homeDivSection1_area_1_btns_2_icon" />
-                </button>
-              </a>
+              <div className="link_direct_div">
+                <div className="link_direct_div_1">
+                  <div className="link_direct_div_title">
+                    For product purchase
+                  </div>
+
+                  <a
+                    href="https://t.me/egomartbot"
+                    target="_blank"
+                    className="homeDivSection1_area_1_btns"
+                  >
+                    <button className="homeDivSection1_area_1_btns_2">
+                      Shop on Egomart{" "}
+                      <TelegramIcon className="homeDivSection1_area_1_btns_2_icon" />
+                    </button>
+                  </a>
+                </div>
+                <div className="link_direct_div_2">
+                  <div className="link_direct_div_title"> For traders</div>
+
+                  <a
+                    href="https://app.egomart.org"
+                    target="_blank"
+                    className="homeDivSection1_area_1_btns"
+                  >
+                    <button className="homeDivSection1_area_1_btns_1">
+                      Trade on Egomart{" "}
+                      <LanguageIcon className="homeDivSection1_area_1_btns_2_icon" />
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
             {/* <div className="homeDivSection1_area_2"> */}
             {/* Marquee */}
@@ -435,12 +458,28 @@ const Home = () => {
               <div className="homeDivSection4_area_cont1_para">
                 Next generation rNFT marketplace.
               </div>
-              <a href="https://t.me/egomartbot" target="_blank">
-                <button className="homeDivSection4_area_cont1_btn">
-                  Launch egomart{" "}
-                  <TelegramIcon className="homeDivSection1_area_1_btns_2_icon" />
-                </button>
-              </a>
+              <div className="homeDivSection4_area_cont1_btns_div">
+                <a
+                  href="https://t.me/egomartbot"
+                  target="_blank"
+                  style={{ width: "100%" }}
+                >
+                  <button className="homeDivSection4_area_cont1_btn">
+                    Shop on egomart
+                    <TelegramIcon className="homeDivSection1_area_1_btns_2_icon" />
+                  </button>
+                </a>
+                <a
+                  href="https://app.egomart.org"
+                  target="_blank"
+                  style={{ width: "100%" }}
+                >
+                  <button className="homeDivSection4_area_cont1_btn2">
+                    Trade on egomart
+                    <LanguageIcon className="homeDivSection1_area_1_btns_2_icon" />
+                  </button>
+                </a>
+              </div>
             </div>
             <div className="homeDivSection4_area_cont2">
               <img

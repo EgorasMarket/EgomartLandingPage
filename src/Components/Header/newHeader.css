@@ -21,6 +21,10 @@
   display: flex;
   align-items: center;
 }
+.newHeaderDiv_area3_btn_icon {
+  font-size: 16px;
+  margin-left: 6px;
+}
 .newHeaderDiv_area1_link {
   display: flex;
   align-items: center;
@@ -104,7 +108,24 @@
   border: solid 1px #959595;
   color: #fff;
   padding: 15px 20px;
-  border-radius: 50px;
+  border-radius: 15px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.newHeaderDiv_area3 {
+  display: flex;
+  align-items: center;
+}
+.newHeaderDiv_area3_btn2 {
+  background: #45bb66;
+  border: solid 1px #45bb67;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 15px;
   width: 180px;
   display: flex;
   align-items: center;
@@ -157,5 +178,14 @@
   .header_div_area_1_img {
     width: 40px;
     margin-right: 10px;
+  }
+  .newHeaderDiv_area3_btn {
+    padding: 14px 10px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  .newHeaderDiv_area3_btn2 {
+    padding: 14px 10px;
+    width: 100px;
   }
 }

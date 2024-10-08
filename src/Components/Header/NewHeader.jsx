@@ -5,6 +5,8 @@ import InfoIcon from "@mui/icons-material/Info";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import LanguageIcon from "@mui/icons-material/Language";
+import TelegramIcon from "@mui/icons-material/Telegram";
 
 const NewHeader = () => {
   const [productsDrop, setProductsDrop] = useState("");
@@ -34,8 +36,17 @@ const NewHeader = () => {
           <div className="newHeaderDiv_area3">
             <a href="https://t.me/egomartbot" target="_blank">
               <button className="newHeaderDiv_area3_btn">
-                Launch Egomart{" "}
-                <ArrowUpRight01Icon
+                Shop
+                <TelegramIcon
+                  className="newHeaderDiv_area3_btn_icon"
+                  size={18}
+                />
+              </button>
+            </a>
+            <a href="https://app.egomart.org" target="_blank">
+              <button className="newHeaderDiv_area3_btn2">
+                Trade
+                <LanguageIcon
                   className="newHeaderDiv_area3_btn_icon"
                   size={18}
                 />
